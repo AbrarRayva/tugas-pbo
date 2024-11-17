@@ -1,4 +1,4 @@
-# # Tugas Pemrograman Berorientasi Objek
+# Tugas Pemrograman Berorientasi Objek
 
 Repositori ini dibuat untuk menyimpan file tugas mata kuliah Pemrograman Berorientasi Objek.
 
