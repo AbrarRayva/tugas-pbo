@@ -1,8 +1,8 @@
 public class Transaksi extends Barang {
     private int jumlahBeli;
-    private double total;
+    private int total;
 
-    public Transaksi(String kodeBarang, String namaBarang, double hargaBarang, int jumlahBeli) {
+    public Transaksi(String kodeBarang, String namaBarang, int hargaBarang, int jumlahBeli) {
         super(kodeBarang, namaBarang, hargaBarang);
         this.jumlahBeli = jumlahBeli;
         this.total = hargaBarang * jumlahBeli;
@@ -12,7 +12,7 @@ public class Transaksi extends Barang {
         return jumlahBeli;
     }
 
-    public double getTotal() {
+    public int getTotal() {
         return total;
     }
 }

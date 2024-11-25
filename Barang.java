@@ -1,9 +1,9 @@
 public class Barang {
     protected String kodeBarang;
     protected String namaBarang;
-    protected double hargaBarang;
+    protected int hargaBarang;
 
-    public Barang(String kodeBarang, String namaBarang, double hargaBarang) {
+    public Barang(String kodeBarang, String namaBarang, int hargaBarang) {
         this.kodeBarang = kodeBarang;
         this.namaBarang = namaBarang;
         this.hargaBarang = hargaBarang;
@@ -17,7 +17,7 @@ public class Barang {
         return namaBarang;
     }
 
-    public double getHarga() {
+    public int getHarga() {
         return hargaBarang;
     }
 }
